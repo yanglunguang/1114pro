@@ -1,0 +1,146 @@
+/*index*/
+.icon-style{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.icon-1{
+    background-image: url("img/pro-icon-1.png");
+
+}
+.icon-2{
+    margin-left: 15px;
+}.icon-3{
+     margin-left: 15px;
+ }.icon-4{
+      background-image: url("img/pro-icon-4.png");
+      margin-left: 15px;
+  }.icon-5{
+       width: 20px;
+       height: 20px;
+       background-image: url("img/pro-icon-5.png");
+       float: right;
+   }
+.icon-2-beforn{
+    background: url("img/pro-icon-2.png");
+}
+.icon-2-after{
+    background: url("img/pro-icon-2-after.png");
+
+}
+.icon-2-animate {
+    animation: bianda 0.6s ease;
+    -webkit-animation: bianda 0.6s ease;
+}
+.icon-3-beforn{
+    background: url("img/pro-icon-3.png");
+}
+.icon-3-after{
+    background: url("img/pro-icon-3-after.png");
+
+}
+.icon-3-animate{
+    animation: bianda2 0.6s ease;
+    -webkit-animation: bianda2 0.6s ease;
+}
+@keyframes bianda {
+    from{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+    to{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes bianda {
+    from{
+        background:url("img/pro-icon-2-after.png");
+        transform: scale(1,1);
+        opacity: 1;
+    }
+    to{background:url("img/pro-icon-2-after.png");
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+@keyframes bianda2 {
+    from{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+    to{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes bianda2 {
+    from{
+        background:url("img/pro-icon-3-after.png");
+        transform: scale(1,1);
+        opacity: 1;
+    }
+    to{background:url("img/pro-icon-3-after.png");
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+/*index结束*/
+
+/*discover开始*/
+.icon-jiahao{
+    width: 34px;
+    height: 29px;
+    float: right;
+}
+.icon-jiahao-after{
+    background: url("img/discover-jiahao-hou.png");
+}.icon-jiahao-beforn{
+    background: url("img/discover-jiahao.png");
+}
+/*discover结束*/
+
+
+/*writer开始*/
+#bg-1{
+    background: url("img/writer-img.png");
+}#bg-2{
+     background: url("img/writer-img-2.png");
+ }
+#bg-3{
+    background: url("img/writer-bottom-1.jpg");
+}#bg-4{
+     background: url("img/writer-bottom-2.jpg");
+ }
+/*writer结束*/
+
+/*my开始*/
+.user-icon{
+    background:url("img/my-icon-1.png");
+}
+.ex-icon{
+    background: url("img/my-icon-2.png");
+}
+.my-touxiang{
+    background: url("img/touxiang.jpg");
+}
+.icon-my-1{
+    background: url("img/my-5.png");
+}
+.icon-my-2{
+    background: url("img/my-6.png");
+}.icon-my-3{
+    background: url("img/my-7.png");
+}
+ .selection-touxiang{
+     background: url("img/touxiang-2.jpg");
+ }
+ .list-touxiang{
+     background: url("img/touxiang-3.jpg");
+ }
+ .huise-guanzhu-beforn{
+     background: url("img/guanzhu.png");
+ }
+ .huise-guanzhu-after{
+     background: url("img/yiguanzhu.png");
+ }
